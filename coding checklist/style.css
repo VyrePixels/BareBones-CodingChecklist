@@ -1,0 +1,72 @@
+#cctitle{
+    font-family: sans-serif;
+    font-size: 4em;
+    margin: 0px;
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+#cac{
+    color: black;
+    width: 10vw;
+    height: 5vh;
+    position: relative;
+    left: 85vw;
+    bottom: 7vh;
+}
+#cacbox{
+    position: fixed;
+    z-index: 10;
+    border: solid black;
+    background-color: rgb(196, 196, 196);
+    height: 70vh;
+    width: 60vw;
+    margin-left: 20vw;
+}
+#choosel{
+    width: 95vw;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    height: 5vh;
+    color: black;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+#menu{
+    border: 2px solid black;
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 95vw;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+}
+#columns{
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+#column1{
+    width: max-content;
+}
+#column2{
+    width: max-content;
+}
+#column3{
+    width: max-content;
+}
+#menu li {
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+#checklist{
+    border: solid black;
+    width: 95vw;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+}
+.checkboxes{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
